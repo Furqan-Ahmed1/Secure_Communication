@@ -194,8 +194,8 @@ if __name__ == "__main__":
     global count
     count = 0
     pnconfig = PNConfiguration()
-    pnconfig.publish_key = 'pub-c-b9fde9ab-30da-4f3d-97d7-22eeb4ac9ca1'
-    pnconfig.subscribe_key = 'sub-c-8f78162c-4f87-11ec-9668-6eac75df5fc1'
+    pnconfig.publish_key = '--Enter your publish key here--'
+    pnconfig.subscribe_key = '--Enter your subscribe key here--'
     pnconfig.ssl = True
     pnconfig.secret_key = 's3cr3t*c0d3' #password 
     pubnub = PubNub(pnconfig)
